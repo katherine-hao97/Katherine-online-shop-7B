@@ -1,0 +1,179 @@
+body {
+    background-color: #fff2fc;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, 
+    sans-serif;
+    margin: 0;
+}
+header {
+    background-color:#DAEAF1;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    border-bottom: 4px solid #E195AB;
+}
+.logo {
+    width: 200px;
+
+}
+.logo img {
+    width: 100%;
+
+}
+nav {
+    background-color:#DAEAF1;
+  
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+li {
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: rgb(255, 255, 255);
+}
+.hero img {
+    width: 100%;
+}
+.hero-text {
+    background-color:#DAEAF1;
+    
+    color: #ff8bdc;
+    padding: 10px;
+    text-align: center;
+}
+#about {
+    background-image: url(./asset/Untitled\ design\ \(2\).gif);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: ##E195AB;
+  }
+  #about h2 {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  #about p {
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+  }
+  
+
+#product {
+width: 100%;
+background-color: #FFF5F;
+text-align: center;
+margin: 40px;
+}
+
+
+#product h2 {
+text-align: center;
+color: #c8d2ff;
+text-align: center;
+margin: 50px;
+}
+
+
+.card-product {
+width: 95%;
+margin: 30px auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+}
+
+
+.price {
+color: rgb(251, 108, 158);
+font-size: 22px;
+}
+
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: rgb(255, 255, 255);
+background-color: #e1e4ff;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+
+.card button:hover {
+opacity: 0.7;
+}
+#contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1px solid #e0a5d5;
+
+  }
+
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+
+  }
+  
+  .contact h4 {
+  color: #89c5c5;
+  } 
+
+  .contact-text p {
+    font-size: xx-large;
+
+  }
+
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #d8abb1;
+    border: none;
+
+  }
+
+  .contact-text button:hover {
+    background-color: #d6a6b4;
+    box-shadow: 3px 3px 12px #b380b9;
+  }
+
+  footer{
+    text-align: center;
+    padding: 12px;
+    background-color: antiquewhite;
+    color:black
+    
+  }
+
+
+
+
+  
